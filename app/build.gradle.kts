@@ -47,9 +47,11 @@ dependencies {
     // Retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
+    implementation(libs.adapter.rxjava3)
     // RxJava 3
     implementation(libs.rxjava)
     implementation(libs.rxandroid)
+
     // Lifecycle - ViewModel and LiveData
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.lifecycle.livedata.ktx)
